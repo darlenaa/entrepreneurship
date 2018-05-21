@@ -1,0 +1,110 @@
+.active {
+    font-family: monospace;
+}
+
+li {
+    transition: transform 1s;
+    margin: 0 auto;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: monospace;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #C5C5F5;
+}
+
+body {
+    background-image: url("Project_Images/background.jpg");
+    -webkit-background-size: cover;
+}
+
+.pull-right {
+    margin-top: 30px;
+}
+
+.row {
+    margin-left: 20px;
+    font-family: monospace;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+
+
+.jumbotron {
+    background-color: #7694E5;
+}
+
+
+.footer-text p {
+    line-height: 150%;
+    text-align: center;
+    font-family: monospace;
+}
+
+.boxed {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    border: 4px inset #2CCBE4;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    line-height: 0.7;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+/* Above are all the recurring css commands, at least for product and research pages, only text decoration underline is taken out from center,*/
+
+.typewriter {
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid black;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+   background-color: white;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+/* fix blinking cursor if you can, low priority, maybe add border around typewriter effect */
+
+p {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+
+.col-md-6 {
+    margin-right: 150px;
+}
+
+.pull-left p {
+    margin-bottom: 50px;
+}
+

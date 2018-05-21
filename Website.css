@@ -1,0 +1,118 @@
+
+.active {
+    font-family: monospace;
+}
+
+li {
+    transition: transform 1s;
+    margin: 0 auto;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.container h1 {
+    font-family: monospace;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #C5C5F5;
+}
+
+body {
+    background-image: url("Project_Images/background.jpg");
+}
+
+.jumbotron {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        background-color: #2A1162;
+    }
+    100% {
+        background-color: #5078E5;
+    }
+}
+
+.center {
+    background-color: transparent;
+    
+}
+
+.boxed {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    border: 4px inset #2CCBE4;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+}
+
+
+h4 {
+    text-decoration: underline;
+}
+
+.image {
+    animation: In;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 20px;
+    
+}
+
+@keyframes In {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 0.7;
+}
+
+.icon {
+    transition: transform 1s;
+    margin: 0 auto;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.footer-text p {
+    line-height: 150%;
+    text-align: center;
+    font-family: monospace;
+}
+
+.pull-right {
+    margin-top: 30px;
+}
+
+.thumbnail img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.center p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: monospace;
+}

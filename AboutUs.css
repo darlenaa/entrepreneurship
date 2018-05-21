@@ -1,0 +1,107 @@
+.active {
+    font-family: monospace;
+}
+
+li {
+    transition: transform 1s;
+    margin: 0 auto;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: monospace;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #C5C5F5;
+}
+
+body {
+    background-image: url("Project_Images/background.jpg");
+
+}
+
+.pull-right {
+    margin-top: 30px;
+}
+
+.row {
+    margin-left: 20px;
+    font-family: monospace;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+
+.jumbotron {
+    background-color: #7694E5;
+}
+
+
+.footer-text p {
+    line-height: 150%;
+    text-align: center;
+    font-family: monospace;
+}
+
+.boxed {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    border: 4px inset #2CCBE4;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    line-height: 0.7;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    animation: Slide;
+    animation-duration: 3s;
+}
+
+@keyframes Slide {
+     from {
+    margin-top: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.pull-left {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.center img {
+    margin-left: 350px;
+    border: 4px solid white;
+}
+
+.pull-left p {
+    margin-bottom: 50px;
+}
+
+.center p {
+    text-align: center;
+    font-size: 16px;
+}

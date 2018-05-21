@@ -1,0 +1,89 @@
+
+.active {
+    font-family: monospace;
+}
+
+li {
+    transition: transform 1s;
+    margin: 0 auto;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: monospace;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #C5C5F5;
+}
+
+body {
+    background-image: url("Project_Images/background.jpg");
+    -webkit-background-size: cover;
+}
+
+.pull-right {
+    margin-top: 30px;
+}
+
+.center {
+    margin-left: 30px;
+    font-family: monospace;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.jumbotron {
+    background-color: #7694E5;
+/*   6185E6; */
+}
+
+.col-md-6 {
+    margin-right: 100px;
+}
+
+.col-md-6 p {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-text p {
+    line-height: 150%;
+    text-align: center;
+    font-family: monospace;
+}
+
+.boxed {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    border: 4px inset #2CCBE4;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    line-height: 0.7;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+img {
+    border: 3px inset blue;
+}
+
+
+
+.pull-left h2 {
+    text-align: center;
+    font-family: monospace;
+    text-decoration: underline;
+}
